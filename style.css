@@ -5,10 +5,6 @@ body {
     }
 
 .first {
-	background-image: url(FunkyFlamingo.png);
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 	width: 99%;
 	aspect-ratio: 16 / 9;
 	position: absolute;
