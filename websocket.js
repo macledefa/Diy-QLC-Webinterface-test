@@ -23,6 +23,10 @@ function sendCMD(cmd) {
 }
 
 function connect() {
+
+  const xhr = new XMLHttpRequest();
+  xhr.open("GET", "http://127.0.0.1:9999/");
+  
   var url = "ws://127.0.0.1:9999/qlcplusWS";
   websocket = new WebSocket(url);
   websocket.onopen = function () {
